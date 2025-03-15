@@ -1,0 +1,6 @@
+dataset/
+logs/
+.empty/
+.idea/
+.docx
+pretrain/
