@@ -45,13 +45,13 @@ The Structure of file is:
 #### 2-1. Search the best parameters of model
 
 ```bash
-python train_ema_search_para.py
+python train/train_ema_search_para.py
 ```
 
 #### 2-2. Using the best parameters of model as the hyper-paremeters
 
 ```bash
-python train_batch_ema.py
+python train/train_batch_ema.py
 ```
 The final weights and training log will be saved in the logs/log_result/EMA_GIN_ALL70_TimeFit
 
@@ -60,7 +60,7 @@ The final weights and training log will be saved in the logs/log_result/EMA_GIN_
 ## 3. Infer model
 for infer data:
 ```bash
-python train_batch_ema.py --infer_flag --PostProcess AverageGFeat
+python train/train_batch_ema.py --infer_flag --PostProcess AverageGFeat
 ```
 The results will be saved in the logs/log_result/EMA_GIN_ALL70_TimeFit
 
