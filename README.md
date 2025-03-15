@@ -20,27 +20,39 @@ Link: https://pan.baidu.com/s/1V0l5kYQ8C6_9UVfBRWAN8Q?pwd=1234 code: 1234
 
 The Structure of file is:
 
-"""
 --dataset
 
    -- patch_images;
 
    -- CY
+
       -- CY1
+      
          -- CY1_XXXX_XXXX_XXXX.npz
+         
          -- CY1_XXXX_XXXX_XXXX.png
+         
          -- .....
+      
       -- huashan;
+      
       -- huashan2;
+      
       -- hz;
+      
       -- JiangData32;
+      
       -- YouAn
+   
    -- RFS_Data_UpLoad
+   
    -- GraphDataNone
+   
       -- rfs_CY.pt
+      
       -- rfs_CY_GP_maps.json
+      
       -- .....
-"""
 
 ## 2. train model
 
