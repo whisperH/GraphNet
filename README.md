@@ -22,7 +22,9 @@ The Structure of file is:
 
 """
 --dataset
+
    -- patch_images;
+
    -- CY
       -- CY1
          -- CY1_XXXX_XXXX_XXXX.npz
